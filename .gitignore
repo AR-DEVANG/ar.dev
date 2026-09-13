@@ -1,0 +1,4 @@
+private/
+qa/
+.DS_Store
+__pycache__/
