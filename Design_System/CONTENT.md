@@ -14,14 +14,14 @@ This is the copy record for the approved September 13 direction, implemented in 
 | Journey in Motion | Completed fellowship, 2026 | Submitted award-completion record, primary trip media, verified reflection film |
 | Way Side Amenities | Archived academic work | Primary B.Arch report title/declaration and academic render folder; omit year/location |
 | AI studies | New speculative interpretations, 2026 | Two source-conditioned generations made for this implementation |
-| ar.dev | Local design preview | This task's implementation; not deployed |
+| ar.dev | Public site at devangchawhan.com since 2026-09-13 | Vercel project `ar-dev` deploying `site/` from private repo AR-DEVANG/ar.dev |
 
 ## Dated update record
 
 | Date | Project | Meaning |
 |---|---|---|
 | 2026-09-13 | Architecture | Two generated visual studies created, original retained |
-| 2026-09-13 | ar.dev | New local design preview |
+| 2026-09-13 | ar.dev | Site published at devangchawhan.com; contact moved to hello@devangchawhan.com |
 | 2026-09-01 | TONY | Code import into dedicated workspace, not feature-release date |
 | 2026-07-21 | Fellowship | Devang confirmed award-completion submission |
 | 2026-05-25 | TONY | Initial project brief / started date |
@@ -278,11 +278,11 @@ View studies
 
 13 Sep 2026
 
-ar.dev · Design preview
+ar.dev · Site launch
 
 A clearer home for the work.
 
-A new site brings selected projects, archival reinterpretations, and dated notes together. This version is a local preview.
+A new site brings selected projects, archival reinterpretations, and dated notes together. Live at devangchawhan.com from 13 September 2026.
 
 Explore
 
@@ -386,4 +386,4 @@ Image description: AI evening study with warm pavilion interiors, illuminated ga
 - Reveal: `Show {remainingBatch} more note/notes ↓`, batch maximum 3.
 - Comparison: `{value} percent original, {100-value} percent AI reinterpretation`.
 
-Public external destinations are only the existing professional email and fellowship reflection. Do not add invented social handles, a claimed owned domain, or private repositories.
+Public external destinations are the owned contact address hello@devangchawhan.com (forwarded to the public-professional Gmail by ImprovMX) and the fellowship reflection. The canonical URL is https://devangchawhan.com/. Do not add invented social handles or private repositories.

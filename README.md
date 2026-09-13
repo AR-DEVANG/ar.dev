@@ -20,6 +20,6 @@ The design contracts live in `Design_System/`. Source facts and dated notes are 
 
 ## Boundaries
 
-Local preview only; no deployment or domain registration. TONY is a prototype, architecture is academic design, and generated studies are labeled. Only the already-used professional email and existing fellowship reflection link are exposed. There are no invented GitHub or social links.
+Published at https://devangchawhan.com. Vercel project `ar-dev` (team MIDWAY MUSTANGS) deploys the `site/` directory from the private GitHub repo `AR-DEVANG/ar.dev`; every push to `main` goes live, other branches get preview URLs behind a Vercel login. The domain is registered and DNS-hosted at Vercel; `hello@devangchawhan.com` forwards through ImprovMX. TONY is a prototype, architecture is academic design, and generated studies are labeled. Only the owned contact address and the existing fellowship reflection link are exposed. There are no invented GitHub or social links.
 
 The selected architecture has no matched, verified walkthrough in the inspected source folders. This release uses still-image comparison and an external link to the fellowship reflection rather than attaching unrelated archival footage. Nothing autoplays.
