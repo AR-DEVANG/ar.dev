@@ -1,6 +1,8 @@
 # ar.dev
 
-An independent implementation of the 13 September 2026 approved design direction. Earlier studies are preserved in `../ar-dev-replit/` and the Ideaverse project.
+Source for **[devangchawhan.com](https://devangchawhan.com)**, the portfolio of Devang Chawhan: architecture, materials research, intelligent tools, and the interfaces between people and places.
+
+One hand-written HTML page. No framework, no build step, no dependencies, no runtime API.
 
 ## Preview
 
@@ -10,16 +12,25 @@ Run from this directory:
 python3 -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Open http://127.0.0.1:8765. Serve **only `site/`**. No build, dependencies, account, backend, or runtime API is required. The page also works as a local HTML file and under a repository subpath.
+Open http://127.0.0.1:8765. Serve **only `site/`**. The page also works as a local HTML file and under a repository subpath.
+
+## Layout
+
+| Path | Holds |
+| --- | --- |
+| `site/` | The published page, favicon, and image assets |
+| `Design_System/` | The design contracts: philosophy, content record, tokens, build brief |
 
 ## Editing
 
-The design contracts live in `Design_System/`. Source facts and dated notes are recorded in `CONTENT.md`; update that record when changing public copy. The five update entries are semantic HTML in `site/index.html`, sorted newest first. Add entries with a real date and an existing `data-project` value (`ardev`, `tony`, `fellowship`, `wayside`). The browser filters them and reveals three at a time. All entries remain accessible without JavaScript.
+Source facts and dated notes are recorded in `Design_System/CONTENT.md`; update that record when changing public copy. The update entries are semantic HTML in `site/index.html`, sorted newest first. Add entries with a real date and an existing `data-project` value (`ardev`, `tony`, `fellowship`, `wayside`). The browser filters them and reveals three at a time. All entries remain accessible without JavaScript.
 
-`private/` holds copied sources, generation prompts, original-to-export provenance, and factual evidence paths. It must stay outside the served/deployed directory. `qa/` holds local checks. Both are ignored by Git.
+Source material, generation prompts, and local checks are kept out of this repository.
+
+## Deployment
+
+Every push to `main` deploys `site/` to https://devangchawhan.com through Vercel. There is no build.
 
 ## Boundaries
 
-Published at https://devangchawhan.com. Vercel project `ar-dev` (team MIDWAY MUSTANGS) deploys the `site/` directory from the private GitHub repo `AR-DEVANG/ar.dev`; every push to `main` goes live, other branches get preview URLs behind a Vercel login. The domain is registered and DNS-hosted at Vercel; `hello@devangchawhan.com` forwards through ImprovMX. TONY is a prototype, architecture is academic design, and generated studies are labeled. Only the owned contact address and the existing fellowship reflection link are exposed. There are no invented GitHub or social links.
-
-The selected architecture has no matched, verified walkthrough in the inspected source folders. This release uses still-image comparison and an external link to the fellowship reflection rather than attaching unrelated archival footage. Nothing autoplays.
+TONY is a prototype, the architecture is academic design, and generated studies are labeled as such. Only the owned contact address and the fellowship reflection link are exposed. The selected architecture has no verified walkthrough footage, so this release uses still-image comparison rather than unrelated archival video. Nothing autoplays.

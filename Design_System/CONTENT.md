@@ -14,7 +14,7 @@ This is the copy record for the approved September 13 direction, implemented in 
 | Journey in Motion | Completed fellowship, 2026 | Submitted award-completion record, primary trip media, verified reflection film |
 | Way Side Amenities | Archived academic work | Primary B.Arch report title/declaration and academic render folder; omit year/location |
 | AI studies | New speculative interpretations, 2026 | Two source-conditioned generations made for this implementation |
-| ar.dev | Public site at devangchawhan.com since 2026-09-13 | Vercel project `ar-dev` deploying `site/` from private repo AR-DEVANG/ar.dev |
+| ar.dev | Public site at devangchawhan.com since 2026-09-13 | Deployed from `site/` in the public repo AR-DEVANG/ar.dev |
 
 ## Dated update record
 
@@ -386,4 +386,4 @@ Image description: AI evening study with warm pavilion interiors, illuminated ga
 - Reveal: `Show {remainingBatch} more note/notes ↓`, batch maximum 3.
 - Comparison: `{value} percent original, {100-value} percent AI reinterpretation`.
 
-Public external destinations are the owned contact address hello@devangchawhan.com (forwarded to the public-professional Gmail by ImprovMX) and the fellowship reflection. The canonical URL is https://devangchawhan.com/. Do not add invented social handles or private repositories.
+Public external destinations are the owned contact address hello@devangchawhan.com and the fellowship reflection. The canonical URL is https://devangchawhan.com/. Do not add invented social handles or private repositories.
